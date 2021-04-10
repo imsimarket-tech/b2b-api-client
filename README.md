@@ -1,4 +1,4 @@
-#Imsimarket reseller API client
+# Imsimarket reseller API client
 
 1) Read the API specification in docs/
 2) Explore the example source
