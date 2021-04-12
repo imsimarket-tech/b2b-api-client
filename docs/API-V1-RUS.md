@@ -166,7 +166,7 @@ JSON, содержащий информацию о SIM
 #### Запрос
 Authorization: Bearer  
 Endpoint: https://mit.imsipay.com/api/v1/balance/topup  
-HTTP method: POST
+HTTP method: POST  
 Content-Type: application/json  
 JSON params:
 
