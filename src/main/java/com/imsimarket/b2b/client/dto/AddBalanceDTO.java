@@ -9,4 +9,5 @@ public class AddBalanceDTO {
     private String type;
     private String param;
     private BigDecimal amount;
+    private boolean test = false;
 }

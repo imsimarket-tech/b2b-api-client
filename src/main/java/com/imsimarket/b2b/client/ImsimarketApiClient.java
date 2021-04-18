@@ -11,4 +11,5 @@ public interface ImsimarketApiClient {
     SimDTO getSimByImsi(String imsi);
     SimDTO getSimByPhoneNumber(String msisdn);
     void addBalance(String type, String param, BigDecimal amount);
+    void addBalance(String type, String param, BigDecimal amount, boolean test);
 }

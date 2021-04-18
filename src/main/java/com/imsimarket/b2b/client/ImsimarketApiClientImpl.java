@@ -81,12 +81,18 @@ public class ImsimarketApiClientImpl implements ImsimarketApiClient {
 
     @Override
     public void addBalance(String type, String param, BigDecimal amount) {
+        addBalance(type, param, amount, false);
+    }
+
+    @Override
+    public void addBalance(String type, String param, BigDecimal amount, boolean test) {
         String url = "https://mit.imsipay.com/api/v1/balance/topup";
 
         AddBalanceDTO dto = new AddBalanceDTO();
         dto.setType(type);
         dto.setParam(param);
         dto.setAmount(amount);
+        dto.setTest(test);
 
         String json;
         try {

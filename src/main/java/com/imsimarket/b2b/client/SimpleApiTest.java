@@ -34,6 +34,6 @@ public class SimpleApiTest {
 
         //This will send a real balance top-up request, use with caution
         System.out.println("Adding funds to balance");
-        apiClient.addBalance("ICCID", sim0.getIccid(), BigDecimal.valueOf(0.1));
+        apiClient.addBalance("ICCID", sim0.getIccid(), BigDecimal.valueOf(0.1), true);
     }
 }
